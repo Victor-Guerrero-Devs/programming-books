@@ -84,7 +84,7 @@ docker run --rm -v ${PWD}:/install vjedev/installer:latest
 ```
 
 - config files will be downloaded and copied to the directory
-- directory must be empty for it to work
+- directory must be empty for it to work (delete the sh file)
 - alternatively, you can replace the above command with
 
 ```
@@ -95,7 +95,7 @@ git clone https://github.com/v-je/docker .
 
   - `nginx.conf` = configures web server
   - `PHP.Dockerfile` = configures PHP extensions
-  - `docker-compose.yml` = lists the programs that will be installed and execute when you start your werver
+  - `docker-compose.yml` = lists the programs that will be installed and executed when you start your server
 
 - the enviornment we set up is NGINX not Apache
 
@@ -116,3 +116,49 @@ docker compose up
 - you can start it up again with `docker compose up -d`
 
 ## Connecting to the Server and Creating Your First File
+
+- open your preferred web browser
+- type `v.je` into the address bar and hit enter
+
+### Adding an HTML file to it
+
+- go to `websites/default/public` in your project directory
+- make a file called `test.html`
+- paste
+
+```html
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>Hello World!</h1>
+  </body>
+</html>
+```
+
+- go to `v.je/test.html`
+- you will see the new html file rendered by the browser
+
+### Folder Levels
+
+We have seen that three levels of directories: `websites/default/public`
+
+This is so b/c the directory websites is meant to store multiple websites.
+
+#### Create a new Website
+
+1. make a directory called `mysite` within `websites`
+2. make a directory called `public` within `mysite`
+3. make a new file called `wow.html` within `websites/mysite/public`
+4. insert some HTML boilerplate into `wow.html` and save it
+5. type into the browser `mysite.v.je/wow.html`
+
+Any directory within the `websites` directory is a sub-domain
+of `v.je`
+
+Certain files should not go within the `public` directory for security reasons
+
+## Conclusion
+
+- we set up a web server w/ Docker
+- we hosted HTML files on it
+- time to learn PHP
