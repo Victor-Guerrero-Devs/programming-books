@@ -32,3 +32,11 @@
 - eventually you'll come up with solutions and write better code
 - moments of errors/mistakes will teach you
 - keep a git repo of your projects so you may see how they evolve
+
+## You’re Not Learning PHP
+
+- you are learning how to code
+- universal concepts will be taught
+- these are applicable to any other programming language
+- concepts > syntax
+- syntax changes; the concepts do not
