@@ -7,3 +7,7 @@
 - want to build modern PHP websites
 
 ## Programming Has Changed
+
+- security is a lot more important now (bots/scripts are running rampant)
+- both PHP and mySQL are stronger languages w/ more capabilities
+- at the same time, more difficult to learn due to all the new additions
