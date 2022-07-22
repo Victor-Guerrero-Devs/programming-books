@@ -46,3 +46,29 @@
 - handles all the configuration
 - easy on resources
 - best option for modern PHP development
+
+## Docker Installation for Linux
+
+- open the terminal and type
+
+```
+curl -fsSL https://get.docker.com -o get-docker.sh
+sudo sh get-docker.sh
+```
+
+- Now that docker is installed, start it up by typing
+
+```
+sudo systemctl enable docker
+sudo systemctl start docker
+```
+
+- add yourself to the docker group so won't need sudo to run Docker apps
+
+```
+sudo usermod -aG docker ${USER}
+```
+
+- logout and then back in to activate this (this is required everytime to you change user groups)
+- make a directory in which your website will be stored
+- navigate to this directory via the terminal
