@@ -23,3 +23,12 @@
 
 - programming concepts build on top of each other
 - therefore, you must know what comes before in order to know what comes ahead
+
+## The Concorde Fallacy
+
+- aka sunk cost fallacy
+- you will run into errors/bugs & will have to start from scratch
+- maintain presistance
+- eventually you'll come up with solutions and write better code
+- moments of errors/mistakes will teach you
+- keep a git repo of your projects so you may see how they evolve
