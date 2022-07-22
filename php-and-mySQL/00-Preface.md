@@ -11,3 +11,10 @@
 - security is a lot more important now (bots/scripts are running rampant)
 - both PHP and mySQL are stronger languages w/ more capabilities
 - at the same time, more difficult to learn due to all the new additions
+
+## It Takes 10,000 Hours to Become an Expert
+
+- after this book, fundamentals will be covered
+- will be able to do 90% of what you want
+- nevertheless, must put the fundamentals to use
+- the more advanced techniques/concepts are more for making your code more efficient/faster/easier to maintain
