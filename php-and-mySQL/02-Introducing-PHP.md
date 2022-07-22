@@ -36,7 +36,7 @@
       <strong>
         <?php
    	     echo rand(1, 10);
-   	     ?>
+   	    ?>
       </strong>
     </p>
   </body>
