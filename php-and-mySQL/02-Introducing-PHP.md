@@ -48,3 +48,22 @@
   - change the url to `mysite.v.je/wow.php`
 - voila, your first PHP script
 - everytime you refresh the page, a new number will be generated btw/ 1 to 10
+
+## Why Use PHP?
+
+**Security**
+
+- the code executes on the server not on the browser therefore users have zero access to it
+
+**Compatability**
+
+- since PHP executes on the server, we never have to worry if PHP is compatibile with X browser
+
+**Reduced load on client**
+
+- since PHP executes on the server, the user's browser can take it easy and just display the HTML + CSS
+- as long as our server is beefy hardware wise, we don't have to worry about our user's limited hardware
+
+**Choice**
+
+- although browsers are limited to HTML, CSS, and JS, the server can handle almost any language, one of which is PHP, that generates HTML
