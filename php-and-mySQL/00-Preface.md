@@ -18,6 +18,8 @@
 - will be able to do 90% of what you want
 - nevertheless, must put the fundamentals to use
 - the more advanced techniques/concepts are more for making your code more efficient/faster/easier to maintain
+- for now, only focus on making things that work
+- reformatting comes much, much later when you have experience
 
 ## Resist the Temptation to Skip Ahead
 
