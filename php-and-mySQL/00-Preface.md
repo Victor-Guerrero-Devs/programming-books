@@ -18,3 +18,8 @@
 - will be able to do 90% of what you want
 - nevertheless, must put the fundamentals to use
 - the more advanced techniques/concepts are more for making your code more efficient/faster/easier to maintain
+
+## Resist the Temptation to Skip Ahead
+
+- programming concepts build on top of each other
+- therefore, you must know what comes before in order to know what comes ahead
