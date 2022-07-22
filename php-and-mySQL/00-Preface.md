@@ -46,3 +46,12 @@
 - the syntax is easy
 - writing the logic is the hard part
 - will have to be able to break problems into smaller components
+
+## You Won’t Get Anything Done by Planning
+
+- general advice: plan out your code before coding
+- this books advice: ignore that
+- why? you need to know the tools and the problems they solve before being able to design software
+- i.e. hit the ground running by coding first
+- example: building a blueprint for a house but not knowing what a hammer does
+- designing software first should not be a concern until you are proficient in coding
