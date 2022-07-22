@@ -72,3 +72,47 @@ sudo usermod -aG docker ${USER}
 - logout and then back in to activate this (this is required everytime to you change user groups)
 - make a directory in which your website will be stored
 - navigate to this directory via the terminal
+
+## Getting Started with Docker
+
+- software needed is now installed
+- terminal is in the above mentioned directory
+- now to set up the enviornment
+
+```
+docker run --rm -v ${PWD}:/install vjedev/installer:latest
+```
+
+- config files will be downloaded and copied to the directory
+- directory must be empty for it to work
+- alternatively, you can replace the above command with
+
+```
+git clone https://github.com/v-je/docker .
+```
+
+- let's look at some of these config files
+
+  - `nginx.conf` = configures web server
+  - `PHP.Dockerfile` = configures PHP extensions
+  - `docker-compose.yml` = lists the programs that will be installed and execute when you start your werver
+
+- the enviornment we set up is NGINX not Apache
+
+  - both do the same job (i.e. web server)
+  - NGINX is optimized for modern web needs
+  - therefore, Apache comes second to NGINX since it comes from an older time
+
+- download docker into the directory and execute to start up the server
+
+```
+docker compose up
+```
+
+- for the first time doing this, it will take a couple of minutes
+- hereafter, any subsequent docker apps will be prepared much faster
+- you can stop the server with `CTRL + C`
+  - or you can use `docker compose down`
+- you can start it up again with `docker compose up -d`
+
+## Connecting to the Server and Creating Your First File
