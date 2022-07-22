@@ -40,3 +40,9 @@
 - these are applicable to any other programming language
 - concepts > syntax
 - syntax changes; the concepts do not
+
+## PHP Syntax
+
+- the syntax is easy
+- writing the logic is the hard part
+- will have to be able to break problems into smaller components
