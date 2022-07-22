@@ -57,3 +57,10 @@
 - i.e. hit the ground running by coding first
 - example: building a blueprint for a house but not knowing what a hammer does
 - designing software first should not be a concern until you are proficient in coding
+
+## Okay, Design Isn’t All Bad
+
+- Spending time up front for designing software is crucial for pros
+- It is not for beginners
+- Pros need to write code that will be maintained for years to come
+- Beginners need to write code that just works so they can learn the concept at hand
