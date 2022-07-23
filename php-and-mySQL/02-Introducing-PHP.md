@@ -125,3 +125,55 @@ echo '<p>Thanks for playing</p>';
 ```
 
 - comments are added like in JS
+
+## Loops
+
+For and while loops can be used
+
+### For loops
+
+```php
+for ($count = 1; $count <= 10; $count++) {
+  $roll = rand(1, 6);
+  echo '<p>You rolled a ' . $roll . '</p>';
+
+  if ($roll == 6) {
+    echo '<p>You win!</p>';
+  }
+  else {
+    echo '<p>Sorry, you didn\'t win. Better luck next time!</p>';
+  }
+}
+
+echo '<p>Thanks for playing</p>';
+```
+
+This would run 10 times, i.e. 10 statements of "You rolled an X"
+
+### While loops
+
+```php
+$roll = 0;
+while ($roll != 6) {
+  $roll = rand(1, 6);
+  echo '<p>You rolled a ' . $roll . '</p>';
+
+  if ($roll == 6) {
+    echo '<p>You win!</p>';
+  }
+  else {
+    echo '<p>Sorry, you didn\'t win, better luck next time!</p>';
+  }
+}
+```
+
+This would keep rolling and pumping out HTML code until a 6 is rolled
+
+## Arrays
+
+`$myArray = ['one', 2, '3'];`
+
+- just like JS
+- access elements via index
+
+Continue from page 88
