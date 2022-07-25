@@ -197,3 +197,15 @@ $birthdays = [
 - when you wish to use a single quote like above, you need the escape character `\`
 
 `echo 'Kevin\'s birthday is: ' . $birthdays['Kevin'];`
+
+## User Interaction and Forms
+
+- common form of user interaction is a search bar
+- a user wants a piece of data so he/she types in a word into a search bar and PHP matches it to the relevant data
+- PHP is activated on a two way street
+
+  - user makes a request and PHP sends this to the back end
+  - backend sends back what was requested via PHP
+
+- Side note: with modern web apps, the page doesn't have to reload to present new information that has been requested by the user
+  - with a front-end framework like Vue, it can communicate with a backend framework like Laravel and present that data w/o a page reload
