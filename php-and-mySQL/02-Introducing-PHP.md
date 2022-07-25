@@ -176,4 +176,24 @@ This would keep rolling and pumping out HTML code until a 6 is rolled
 - just like JS
 - access elements via index
 
-Continue from page 88
+### Associative arrays
+
+- instead of using an index number, you can use a string to access an element
+
+```php
+$birthdays = [
+  'Kevin' => '1978-04-12',
+  'Stephanie' => '1980-05-16',
+  'David' => '1983-09-09'
+];
+```
+
+- therefore, if you want to access the first birthday element
+
+`echo 'Kevin\'s birthday is: ' . $birthdays['Kevin'];`
+
+## Escape
+
+- when you wish to use a single quote like above, you need the escape character `\`
+
+`echo 'Kevin\'s birthday is: ' . $birthdays['Kevin'];`
