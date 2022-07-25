@@ -209,3 +209,11 @@ $birthdays = [
 
 - Side note: with modern web apps, the page doesn't have to reload to present new information that has been requested by the user
   - with a front-end framework like Vue, it can communicate with a backend framework like Laravel and present that data w/o a page reload
+
+### Passing Variables in Links
+
+- The simplest way to send information along with a page request is to use the URL query string.
+
+`http://www.google.com/search?hl=en&q=SitePoint`
+
+- everything after the question mark = the user's search query
