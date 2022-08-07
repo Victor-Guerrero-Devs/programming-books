@@ -41,3 +41,9 @@ There should only be one of these per HTML file and it should only be nested ins
 - used for content that is tangentially related to the content around it.
 - use it for sidebars, or content as a little tip about a related subject in a blog post or "You may also like..." or "Customers who bought this also bought..."
 - basically, anything not directly related to the main content would work well
+
+### <header>
+
+- can be used in many ways
+- as the container for your nav bar
+- nested inside every `section` and `article` as a container for `hx` elements
