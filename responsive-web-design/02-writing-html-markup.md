@@ -35,3 +35,9 @@ There should only be one of these per HTML file and it should only be nested ins
 - biggest difference is that `section` encapsulates a larger amount of content whereas the `article` encapsulates a smaller amount
 - ex: `section` is used for containing all the different plans a customer can use but `article` is used to contain the individual plan cards
 - therefore, `article` is nested inside of `section` and never the other way
+
+### <aside>
+
+- used for content that is tangentially related to the content around it.
+- use it for sidebars, or content as a little tip about a related subject in a blog post or "You may also like..." or "Customers who bought this also bought..."
+- basically, anything not directly related to the main content would work well
