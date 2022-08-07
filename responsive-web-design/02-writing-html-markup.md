@@ -23,3 +23,8 @@ There should only be one of these per HTML file and it should only be nested ins
 - used to define a generic section of a document or application
 - for containing small elements, continue to use divs as their container
 - sections are for grouping together related things like the about section, contact section, plans section, testimonial section etc
+
+### <nav>
+
+- used to wrap major navigational links to other pages or parts within the same page.
+- reserved for the main nav bar at the top of a page
