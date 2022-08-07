@@ -28,3 +28,10 @@ There should only be one of these per HTML file and it should only be nested ins
 
 - used to wrap major navigational links to other pages or parts within the same page.
 - reserved for the main nav bar at the top of a page
+
+### <article>
+
+- these are usually confused with `<section></section>`
+- biggest difference is that `section` encapsulates a larger amount of content whereas the `article` encapsulates a smaller amount
+- ex: `section` is used for containing all the different plans a customer can use but `article` is used to contain the individual plan cards
+- therefore, `article` is nested inside of `section` and never the other way
