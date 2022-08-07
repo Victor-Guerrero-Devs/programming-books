@@ -53,3 +53,14 @@ There should only be one of these per HTML file and it should only be nested ins
 - works the same way as `header`
 - can be used for the last section on a webpage
 - can also be nested inside of a blog post `article` containg info about the writer etc
+
+## HTML5 outline algorithm
+
+- usually, webpages should only have one `h1`
+- w/ HTML5, each individual section can have its own `h1`
+- however, most search engines don't follow the HTML5 outline regulations so stick to one `h1` per page so they can know the main content
+
+Check your pages' outline here
+
+• http://gsnedders.html5.org/outliner/
+• http://hoyois.github.com/html5outliner/
