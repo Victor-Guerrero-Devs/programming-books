@@ -85,7 +85,7 @@ That is a badway to use h2 because it is being used as a subtitle when it should
 
 This is how it should be done. Give the p element a class and style instead of using an h2
 
-## <p> + <blockquote>
+## p + blockquote
 
 the `blockquote` is usually preceeded by a `p` as a form of introduction
 
@@ -96,7 +96,7 @@ the `blockquote` is usually preceeded by a `p` as a form of introduction
 </blockquote>
 ```
 
-## <figure> + <figcaption>
+## figure + figcaption
 
 Figure is used as a container for both `img` and `figcaption`
 
@@ -111,4 +111,4 @@ Although `figcaption` provides some text for the `img`, the alt attribute should
 </figure>
 ```
 
-## <details> + <summary>
+## details + summary
