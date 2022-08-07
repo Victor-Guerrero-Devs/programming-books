@@ -47,3 +47,9 @@ There should only be one of these per HTML file and it should only be nested ins
 - can be used in many ways
 - as the container for your nav bar
 - nested inside every `section` and `article` as a container for `hx` elements
+
+### <footer>
+
+- works the same way as `header`
+- can be used for the last section on a webpage
+- can also be nested inside of a blog post `article` containg info about the writer etc
