@@ -64,3 +64,23 @@ Check your pages' outline here
 
 • http://gsnedders.html5.org/outliner/
 • http://hoyois.github.com/html5outliner/
+
+## Don't use h1-h6 as markup
+
+Don't use them for stylistic reasons; only use them for giving a heading to a new section or sub-section
+
+```html
+<h1>Welcome to my blog</h1>
+<h2>where anything and everything is discussed</h2>
+```
+
+That is a badway to use h2 because it is being used as a subtitle when it should be used strictly as a heading to a new section
+
+```html
+<h1>Welcome to my blog</h1>
+<p>where anything and everything is discussed</p>
+
+<h2>Blog Post #1</h2>
+```
+
+This is how it should be done. Give the p element a class and style instead of using an h2
