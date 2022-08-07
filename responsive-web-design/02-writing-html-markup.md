@@ -84,3 +84,31 @@ That is a badway to use h2 because it is being used as a subtitle when it should
 ```
 
 This is how it should be done. Give the p element a class and style instead of using an h2
+
+## <p> + <blockquote>
+
+the `blockquote` is usually preceeded by a `p` as a form of introduction
+
+```html
+<p>Hemingway once wrote that:</p>
+<blockquote>
+  The world breaks everyone and afterward many are strong at the broken places
+</blockquote>
+```
+
+## <figure> + <figcaption>
+
+Figure is used as a container for both `img` and `figcaption`
+
+Although `figcaption` provides some text for the `img`, the alt attribute should still contain something for assistive tech
+
+```html
+<figure>
+  <img src="imgs/dog.jpg" alt="a dog drinking water" />
+  <figcaption>
+    Here is a picture of my dog when he was just two years old
+  </figcaption>
+</figure>
+```
+
+## <details> + <summary>
