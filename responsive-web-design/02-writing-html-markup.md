@@ -112,3 +112,17 @@ Although `figcaption` provides some text for the `img`, the alt attribute should
 ```
 
 ## details + summary
+
+```html
+<details>
+  <summary>I ate 15 scones in one day</summary>
+  <p>
+    Of course I didn't. It would probably kill me if I did. What a way to go.
+    Mmmmmm, scones!
+  </p>
+</details>
+```
+
+This is a budget accordion. To left of the content in `summary`, there will be an arrow icon that can be clicked (actually both the icon and summary text are clickable).
+
+Once it is clicked, it will show the content in `p`
