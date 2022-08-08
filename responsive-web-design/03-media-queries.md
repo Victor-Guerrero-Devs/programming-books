@@ -27,3 +27,11 @@ Media queries use conditional logic
 ```
 
 In other words, if the viewport width is at least 320 pixels, change the background color of the body element to green.
+
+## Separating media queries
+
+Instead of throwing together all of you CSS changes into one media query, it is advised to use multiple media queries for each component.
+
+Example: just like you should split your CSS file into different sections via headings (or split them into different files), you should use multiple media queries for that particular section
+
+Therefore, the `header` should have it own media query, the `about-section` should have its own too, and the `footer`
