@@ -13,3 +13,17 @@ As long as you have that line in your `head` element, responsive design will be 
 There are a ton of different properties we can check for w/ media queries but the thing we want to check for is **width**
 
 Once the viewport hits a certain width, we can activate/change CSS styles to accomdate the new viewport
+
+## Conditional Logic
+
+Media queries use conditional logic
+
+```css
+@media screen and (min-width: 320px) {
+  body {
+    background-color: green;
+  }
+}
+```
+
+In other words, if the viewport width is at least 320 pixels, change the background color of the body element to green.
