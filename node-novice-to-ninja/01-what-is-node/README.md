@@ -2,6 +2,7 @@
 
 - a JS runtime, means it can execute JS files
 - used to create CLI tools, desktop programs like atom, and servers for web apps
+  - web apps require servers so HTML pages may be returned when they're requested by a browser
 
 ## Why Learn Node?
 
