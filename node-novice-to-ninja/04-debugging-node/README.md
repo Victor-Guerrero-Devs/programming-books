@@ -29,3 +29,34 @@
 4. Use an issue-tracking system like Jira, FogBugz, or Bugzilla which are basically journals for identifying bugs and the progress of fixing them.
 
 5. use test driven development (TDD) which is when you test if a function does what it is supposed to before even writing it
+
+## Common Methods
+
+1. use console logs to check if a variable actually has the value you think it has
+
+- 90% of the time this is what you'll be using
+
+2. use a built in node module `util` or 3rd part ones like `cabin, loglevel, pino` etc
+
+3. using the v8 inspector with the inspect command `node inspect index.js`
+
+4. using chrome
+
+- `node --inspect index.js`
+- go to chrome address bar and type in `chrome://inspect`
+- click on the `inspect` link to be taken to dev tools
+- go to sources
+- add folder to workspace
+- select your server file
+- agree
+- now you can debug with breakpoints
+
+5. can use VSC with `run and debug` pane
+
+## Conclusion
+
+pg 60 there is a debugging exercise
+
+Next chapter we will start writing actual node apps with express
+
+Remember, 90% of the time use console log
