@@ -6,3 +6,7 @@
 - Author: Craig Buckler
 - Publisher: SitePoint
 - Publication Date: 2022
+
+## Interesting Parts
+
+- Chp 3, pg 26 (your first web app)
