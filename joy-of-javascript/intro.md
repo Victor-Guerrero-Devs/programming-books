@@ -57,3 +57,10 @@
 
 - modern web has everything API-driven
 - therefore, learn to use JS's async capabilities to their highest potential
+
+## Closing thoughts
+
+check out the author's earlier book `Functional Programming in JavaScript (Manning, 2016)` and
+
+- You Don’t Know JS, by Kyle Simpson (https://github.com/getify/You-Dont-Know-JS)
+- Composable Software, by Eric Elliot (https://leanpub.com/composingsoftware)
