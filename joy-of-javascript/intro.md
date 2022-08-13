@@ -39,6 +39,12 @@
 
 #### 2. Functions
 
+- now that we know about objects, we can string them together w/ functions
+- JS is perfect for functional programming, i.e. functions as the main engine
+- higher-order functions are the key to writing modular, composable, and maintainable software, the strongest feature of JS
+- how to use FP (functional programming) to drive business logic of your app forward
+- using higher-order functions as the focal point for youisr design
+
 #### 3. Code
 
 #### 4. Data
