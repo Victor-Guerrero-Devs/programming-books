@@ -47,4 +47,13 @@
 
 #### 3. Code
 
+- for a long time, JS did not have official module support
+- ES6 finally brought it
+- modules are used to separate reusable pieces of code
+- JS's standard API `Proxy` and `Reflect` help with this as well
+- learn to make sharp separations in your code base
+
 #### 4. Data
+
+- modern web has everything API-driven
+- therefore, learn to use JS's async capabilities to their highest potential
