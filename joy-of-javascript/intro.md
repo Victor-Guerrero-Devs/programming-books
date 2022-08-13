@@ -22,3 +22,23 @@
 - professionals who already work w/ JS
 - therefore, intermediate and advanced
 - nevertheless, fine for beginners who want to learn more
+
+### this book's organization
+
+- this book's goal is to teach you to build software from simple, composable pieces
+- each chapter (9) and each section (4) builds on the previous one (mastery learning)
+
+#### 1. Objects
+
+- JavaScript’s object system
+- syntactical support for class declaration = easy inheritance, encapsulation and structure
+- nevertheless, JS is NOT a class oriented language
+- JS is an object oriented language
+- therefore, in-depth look at the object system in JS
+- how to use it well
+
+#### 2. Functions
+
+#### 3. Code
+
+#### 4. Data
