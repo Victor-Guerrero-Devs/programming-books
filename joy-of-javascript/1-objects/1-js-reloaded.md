@@ -14,3 +14,6 @@
 - anyway, the four major themes of this book will be covered starting now
 
 ## 1.2 Objects
+
+- objects are memory references that point to another location in memory
+-
