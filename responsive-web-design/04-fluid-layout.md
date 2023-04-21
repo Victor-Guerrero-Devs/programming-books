@@ -19,3 +19,28 @@
 - easy to position items on the x and y axis
 - easy to create layouts 
 - easy to be responsive
+
+## Stickied Footer
+
+- always a pain to make the footer stick the bottom especially when there isn't content to push it there 
+- easy to do with flex
+
+```html
+<body>
+    <main>blah</main>
+    <footer>blagh</footer>
+</body>
+```
+
+```css
+body {
+    display: flex;
+    min-height: 100%;
+}
+
+main {
+    flex: 1 0 auto;
+}
+```
+
+That one flex in `main` says stretch out as vertically as you can which will make the footer take up and stay only at the bottom.
