@@ -26,3 +26,5 @@
 - RGBA
 - HSL
 - HSLA
+
+Pick up on chp 7, pg 224
