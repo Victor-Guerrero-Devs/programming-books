@@ -44,3 +44,11 @@ main {
 ```
 
 That one flex in `main` says stretch out as vertically as you can which will make the footer take up and stay only at the bottom.
+
+## Responsive Images
+
+We have two main things to worry about images: the resolution provided in relation to the device (is it high DPR?) and the image size provided in relation to the viewport of the device (do I serve a 2400x1200 image on a mobile or just for desktop?)
+
+We can use both certain HTML elements like `picture` and attributes like `srcset` and `sizes` to fix this. In addition, we can use media queries in CSS.
+
+Lastly art direction.
