@@ -16,3 +16,6 @@
 ## Flexbox?
 
 - the fix to floats and tables
+- easy to position items on the x and y axis
+- easy to create layouts 
+- easy to be responsive
