@@ -19,3 +19,10 @@
 - woff and woff2 formats
 - `font-display`
 - variable fonts
+
+## Color
+
+- RGB
+- RGBA
+- HSL
+- HSLA
