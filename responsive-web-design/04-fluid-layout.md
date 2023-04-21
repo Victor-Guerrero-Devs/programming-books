@@ -12,3 +12,7 @@
 
 - just use a max-width to set a limit to the container above 1020px vw 
 - use percentage units for anything smaller
+
+## Flexbox?
+
+- the fix to floats and tables
