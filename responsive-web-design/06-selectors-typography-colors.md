@@ -12,3 +12,10 @@
 - attribute selectors
 - nth selectors
 - calc function 
+
+## Typography
+
+- `@font-face`
+- woff and woff2 formats
+- `font-display`
+- variable fonts
