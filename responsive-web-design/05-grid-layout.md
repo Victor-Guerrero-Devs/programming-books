@@ -7,3 +7,5 @@
 - now very easy to use thanks to official support
 - main idea is that we define the size of columns and rows inside of them 
 - we change the width of the columns in relation to viewport width
+
+Goes along and talks about some of its properties and functions like `minmax()`
