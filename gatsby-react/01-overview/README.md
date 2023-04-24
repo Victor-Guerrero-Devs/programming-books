@@ -26,3 +26,15 @@ Gatsby community provides source plugins to easily ingest data from different so
 The data can be explored and queried using a uniform data layer powered by GraphQL
 GraphQL layer is transitory and doesn't affect the size of the production site
 The process of sourcing and querying data is explained in Chapter 3 of the book.
+
+## Learning Curve
+
+As long as you know React, very easy to get started.
+
+## Fast Performance
+
+Website performance can take considerable time to optimize and can easily be undone by design changes.
+Gatsby has built-in features that can improve site performance and turn your site into a PWA.
+Gatsby is a "framework," which means it commands a particular flow and layout defined by them.
+Working within a framework can be seen as a benefit as developers familiar with the framework will know where to find relevant files and code.
+Gatsby is a powerful tool with many benefits for web developers.
