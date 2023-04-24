@@ -38,3 +38,19 @@ Gatsby has built-in features that can improve site performance and turn your sit
 Gatsby is a "framework," which means it commands a particular flow and layout defined by them.
 Working within a framework can be seen as a benefit as developers familiar with the framework will know where to find relevant files and code.
 Gatsby is a powerful tool with many benefits for web developers.
+
+## Gatsby Use Cases
+
+1. documentation sites
+2. online courses (like code with mosh)
+3. Saas
+4. portfolios
+5. heavy high res photos site like art gallery
+
+## Gatsby Competitors
+
+Gatsby is not the only React static site generator on the market, and its main competitor is Next.js.
+One of the key differences between Next.js and Gatsby used to be server-side rendering, but Gatsby can now also create a hybrid build with both static and server-side rendered content.
+Next.js keeps data stored on the server, which makes it easier to exploit and requires more maintenance compared to Gatsby.
+Both Next.js and Gatsby have additional utilities to help with handling images, but Gatsby can make images more performant on statically rendered pages while Next.js cannot.
+The skills and mentality learned in this book are transferable to a different static site generator in the future.
