@@ -54,3 +54,7 @@ One of the key differences between Next.js and Gatsby used to be server-side ren
 Next.js keeps data stored on the server, which makes it easier to exploit and requires more maintenance compared to Gatsby.
 Both Next.js and Gatsby have additional utilities to help with handling images, but Gatsby can make images more performant on statically rendered pages while Next.js cannot.
 The skills and mentality learned in this book are transferable to a different static site generator in the future.
+
+## Book Project
+
+A portfolio with a built-in blog. Issue: this book uses Gatsby 4.X and the latest one is 5.X
