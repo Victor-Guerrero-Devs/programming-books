@@ -36,3 +36,7 @@
 - Differential inheritance means that a derived object maintains references to the objects from which it is derived, which is common in prototypal languages. In JavaScript, this is called `Prototype`. In class-based inheritance, a derived object copies all the state and behavior from its own class, as well as all its derived classes. The key difference is copy versus link.
 - differential inheritance is a way for objects to differentiate themselves from their parent object by adding new properties, while class-based inheritance copies all the properties and behaviors from its parent class.
 - A hash value is a unique identifier for an object's state, and Object.setPrototypeOf can be used to differentiate a child object.
+
+## 2.2 Constructor Functions
+
+The constructor functions have been used for building objects in JavaScript for a long time, and they offer a scalable way to create many objects of the same shape. The section discusses advanced techniques related to the constructor function pattern.
