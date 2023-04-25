@@ -40,3 +40,9 @@
 ## 2.2 Constructor Functions
 
 The constructor functions have been used for building objects in JavaScript for a long time, and they offer a scalable way to create many objects of the same shape. The section discusses advanced techniques related to the constructor function pattern.
+
+### 2.2.1 Functions as Templates
+
+- Using functions to build objects in JavaScript is a good design decision that makes your code less fragile and more maintainable.
+- Constructor functions are a way to initialize objects populated with different data. By using functions, you can easily instantiate as many objects as you like.
+- However, you need to call the function with the "new" keyword to ensure the context is initialized properly. The objects do not share references to any properties, and to fix this problem, you need to configure how prototype links are set up as new objects are created.
