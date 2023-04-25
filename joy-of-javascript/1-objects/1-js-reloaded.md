@@ -35,3 +35,11 @@
 - easy for bundlers to pack into one file
 - easy to write module code
 - easy to implement separation of concerns
+
+## 1.5 Data
+
+- JavaScript is used for handling data of various shapes and sizes arriving synchronously or asynchronously from anywhere.
+- Promises simplify reasoning about asynchronous code, allowing for composable chains of sequential logic to solve complex problems involving asynchronous data sources.
+- Async generators allow for potentially infinite sequences of data over time, and Observables can handle all data types with a consistent computing model, making them attractive to framework and library authors.
+- Observables are composable and can be used to process data synchronously or asynchronously, making them a powerful tool for modern software development.
+- with the JS feature of higher order functions, managing data becomes easy
