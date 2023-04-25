@@ -16,3 +16,9 @@
 - JavaScript's history includes attempts to make it look like Java, resulting in syntax that some purists don't like.
 - Classes are a first-class citizen in JavaScript, and many developers prefer using them instead of direct prototype configuration because they're easier to use. However, it's essential to have a good understanding of how JavaScript's object system works.
 - This chapter covers two patterns for modeling inheritance relationships: constructor functions and classes. Both patterns allow sharing data and behavior through prototype references and property resolution mechanisms.
+
+## 2.1 Reviewing Prototypical Inheritance
+
+- JavaScript is object-oriented, and it uses prototypes to enable objects to send messages to objects higher up in the hierarchy of interconnected objects, also known as inheritance.
+- The Object.create() API is used to establish a prototype chain that links two or more objects. The prototype object can be manipulated at any time, and this feature allows developers to group common properties.
+- The Object.create() API's second argument lets developers control how newly created object properties behave by configuring their properties.
