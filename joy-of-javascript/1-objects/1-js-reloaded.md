@@ -16,4 +16,5 @@
 ## 1.2 Objects
 
 - objects are memory references that point to another location in memory
--
+- object literals are fine for one of a kind object
+- classes if you need objects with the same properties and methods
