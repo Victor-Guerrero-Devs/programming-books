@@ -52,3 +52,11 @@ The constructor functions have been used for building objects in JavaScript for 
 - use of constructor functions in JavaScript to create objects and how the prototype property works to allow code sharing and reuse.
 - The constructor function is a powerful way to create objects, but it requires more attention to detail than traditional object literals.
 - The prototype property automatically creates an object that can be used to share code among instances. However, it is important to remember to use the new keyword when calling the constructor to ensure that the new object is created correctly.
+
+## 2.3 Class Based Inheritance
+
+- Classes make it easier to represent inheritance hierarchies and clean up the complex boilerplate code of constructor functions. JavaScript was an object-oriented language long before classes.
+- The mental model of classes makes it simpler to represent inheritance hierarchies and helps with domain modeling in terms of inheritance. Classes were introduced to make inheritance modeling easier, especially for developers coming from class-oriented languages.
+- The syntax of classes provides syntactical sugar over constructor functions that accomplish the same thing. JavaScript objects can access parent properties declared even after the child object was instantiated.
+- Inherited properties from some base object are shared across all instances of child objects, which might lead to undesirable behavior.
+- the ease with which classes allow you to set up the prototype chain.
