@@ -22,3 +22,11 @@
 - JavaScript is object-oriented, and it uses prototypes to enable objects to send messages to objects higher up in the hierarchy of interconnected objects, also known as inheritance.
 - The Object.create() API is used to establish a prototype chain that links two or more objects. The prototype object can be manipulated at any time, and this feature allows developers to group common properties.
 - The Object.create() API's second argument lets developers control how newly created object properties behave by configuring their properties.
+
+### 2.1.1 Property Resolution Process
+
+- how JavaScript's prototype mechanism and property lookup mechanism work together to implement object-oriented patterns in JavaScript.
+- The internal reference `Prototype` is used to link objects, and the JavaScript engine looks for a property in the calling object and then in `Prototype`. If the property is not found, the process continues up the prototype chain until it reaches the empty object literal {}.
+- The hidden proto property acts as a bridge that allows for traversal of the chain.
+- Don't use proto directly in applications; Object.getPrototypeOf and Object.setPrototypeOf instead.
+- Explore resources such as the book series You Don't Know JS to gain a deeper understanding of the nuances of manipulating object chains in JavaScript.
