@@ -46,3 +46,9 @@ The constructor functions have been used for building objects in JavaScript for 
 - Using functions to build objects in JavaScript is a good design decision that makes your code less fragile and more maintainable.
 - Constructor functions are a way to initialize objects populated with different data. By using functions, you can easily instantiate as many objects as you like.
 - However, you need to call the function with the "new" keyword to ensure the context is initialized properly. The objects do not share references to any properties, and to fix this problem, you need to configure how prototype links are set up as new objects are created.
+
+### 2.2.2 Sharing Properties by Using Constructors & Prototypes
+
+- use of constructor functions in JavaScript to create objects and how the prototype property works to allow code sharing and reuse.
+- The constructor function is a powerful way to create objects, but it requires more attention to detail than traditional object literals.
+- The prototype property automatically creates an object that can be used to share code among instances. However, it is important to remember to use the new keyword when calling the constructor to ensure that the new object is created correctly.
