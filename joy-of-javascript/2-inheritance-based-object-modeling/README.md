@@ -30,3 +30,9 @@
 - The hidden proto property acts as a bridge that allows for traversal of the chain.
 - Don't use proto directly in applications; Object.getPrototypeOf and Object.setPrototypeOf instead.
 - Explore resources such as the book series You Don't Know JS to gain a deeper understanding of the nuances of manipulating object chains in JavaScript.
+
+### 2.1.2 Differntial Inheritance
+
+- Differential inheritance means that a derived object maintains references to the objects from which it is derived, which is common in prototypal languages. In JavaScript, this is called `Prototype`. In class-based inheritance, a derived object copies all the state and behavior from its own class, as well as all its derived classes. The key difference is copy versus link.
+- differential inheritance is a way for objects to differentiate themselves from their parent object by adding new properties, while class-based inheritance copies all the properties and behaviors from its parent class.
+- A hash value is a unique identifier for an object's state, and Object.setPrototypeOf can be used to differentiate a child object.
