@@ -27,3 +27,11 @@
 - JavaScript's pipeline operator and Algebraic Data Types (ADTs) can be used for data transformation and validation.
 - The pipeline operator allows chaining of functions in a UNIX-like manner, while ADTs provide a way to abstract over if/else logic with an expression.
 - Functors and monads are introduced as objects that behave like functions and can be used for data transformation.
+
+## 1.4 Code
+
+- ESM standardizes how code is shared and is platform agnostic
+- this is the import/export module that replaced CommonJS, made by NodeJS
+- easy for bundlers to pack into one file
+- easy to write module code
+- easy to implement separation of concerns
