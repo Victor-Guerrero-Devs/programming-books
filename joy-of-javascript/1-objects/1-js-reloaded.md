@@ -18,3 +18,12 @@
 - objects are memory references that point to another location in memory
 - object literals are fine for one of a kind object
 - classes if you need objects with the same properties and methods
+
+## 1.3 Functions
+
+- Functions drive the state of an application and implement its business logic.
+- They can be thought of in two ways: as a group of statements that execute together in a procedural or imperative mindset, or as immutable computations assembled like Lego bricks in functional programming.
+- Functional programming can simplify complex programs and make code more maintainable and declarative, using techniques such as decomposition, composition, and higher-order functions. The chapter on functional programming teaches enough to significantly affect day-to-day coding, and the use of functions can abstract any kind of logic to create a pipeline of information.
+- JavaScript's pipeline operator and Algebraic Data Types (ADTs) can be used for data transformation and validation.
+- The pipeline operator allows chaining of functions in a UNIX-like manner, while ADTs provide a way to abstract over if/else logic with an expression.
+- Functors and monads are introduced as objects that behave like functions and can be used for data transformation.
