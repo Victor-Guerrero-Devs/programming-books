@@ -33,3 +33,10 @@ This way you avoid over-designing or adding unneeded styles.
 - these
 - these personalities are communicated via font and colors and border radius
 - serious = serif, gray, blue, gold, square ; playful = rounded sans serif, pink, rounded buttons ; neutral = sans serif
+
+## Limit your choices
+
+- this relates to your colors, fonts, font-sizes, and sizes in general
+- since tailwind already has a built in system for all of these (except fonts), it will be easy when using it
+- when choosing colors on your own, just pick 3 and then make an ~8 shade variation of each
+- for any subsequent projects, incoporate those colors gradients
