@@ -28,3 +28,7 @@
 - OLOO's view of differential inheritance is different from the mental model of classes in that it considers objects peers that link together and delegate functionality by passing messages to each other.
 - OLOO keeps the good parts of the language while throwing away the deceiving class-based design and the complex prototype configuration of the constructor function pattern. OLOO still uses the `Prototype`, but that mechanism is cleverly hidden behind Object.create and provides a much simpler userland model for designing objects. In OLOO, initialization and construction are separated as two different steps.
 - The pattern resembles the Builder pattern used in object-oriented design. The reliance in prototypal inheritance is much more controlled and less exposed. The pattern is presented in simple and complex scenarios.
+
+## 3.3 Object.assign()
+
+- used for the following: copy the properties of one object onto another with a new reference, create a new object that derives its properties from 2 objects, or to update the properties of one object with another's
