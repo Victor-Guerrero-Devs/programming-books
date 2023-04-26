@@ -25,3 +25,14 @@
 - sometimes you will not be able to emphasize the primary element anymore
 - to solve this, just de-emphasize the other elements
 - primarily achieved by giving the less important elements a color that helps them blend in, e.g. your main background is a light blue and both your main section and aside section use a white bg to help them pop out. To fix the competition, give the aside section the same light blue background
+
+## Labels are a last resort
+
+- labels should only be reserved for forms
+- say you have a card component for users that display their name, job title, email, and phone number
+- you don't have to add before each one a label to specify what the value is supposed to be
+- it is self-evident
+- sometimes labels are needed outside of forms like a product item card
+- in this case, you need to blend the label into the value, e.g. not `stock: 12` but `12 in stock`
+- sometimes labels are absolutely needed when presenting data like a fitness report
+- in this case, make them bold because more than likely a user will be looking for a specific piece of data
