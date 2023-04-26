@@ -42,3 +42,10 @@
 - sometimes, the main header of a page should be large to tell the user what the content it contains will be about
 - nevertheless, in this case they usually act as labels
 - thus, these kinds of heading should be down played so as not to steal attention from the main content
+
+## Balance weight and contrast
+
+- bolded elements pop out more simply by the virtue of taking up more space than other elements
+- when putting solid icons next to text, they draw attention to the text itself
+- this can through off your visual hierarchy since most of the time
+- to correct this issue, lower the opacity of the icons and the text next to it
