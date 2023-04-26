@@ -36,3 +36,9 @@
 - in this case, you need to blend the label into the value, e.g. not `stock: 12` but `12 in stock`
 - sometimes labels are absolutely needed when presenting data like a fitness report
 - in this case, make them bold because more than likely a user will be looking for a specific piece of data
+
+## Separate visual hierarchy from document hierarchy
+
+- sometimes, the main header of a page should be large to tell the user what the content it contains will be about
+- nevertheless, in this case they usually act as labels
+- thus, these kinds of heading should be down played so as not to steal attention from the main content
