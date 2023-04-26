@@ -19,3 +19,9 @@
 
 - use it only if you have a white background
 - if you are trying to de-emphasize text, give it a lighter color/opacity of the background it has, e.g. if a blue background, give it a very light blue font color
+
+## Emphasize by de-emphasizing
+
+- sometimes you will not be able to emphasize the primary element anymore
+- to solve this, just de-emphasize the other elements
+- primarily achieved by giving the less important elements a color that helps them blend in, e.g. your main background is a light blue and both your main section and aside section use a white bg to help them pop out. To fix the competition, give the aside section the same light blue background
