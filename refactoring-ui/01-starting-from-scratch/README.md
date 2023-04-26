@@ -18,3 +18,11 @@ This way you avoid over-designing or adding unneeded styles.
 - the focus should be on exploring layout ideas and creating a clear interface with a strong hierarchy
 - you should beging with paper and pen instead
 - low-fidelity designs like sketches and wireframes are disposable and should be used to explore ideas before moving on to building the real thing
+
+## Don’t design too much
+
+- once you have a basic model of how a feature should look like, start building it
+- don't sit around and think about all the edge cases; these can be solved after the intial implementation
+- build the real thing as early as possible and reiterate over it (i.e. design then code, repeat)
+- say you want to build a comment section that allows users to upload stuff so a button will be needed + the functionality
+- you find out that adding this functionality will take a lot more than expected; nevertheless, implement the design and worry about it later
