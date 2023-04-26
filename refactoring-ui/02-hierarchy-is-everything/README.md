@@ -49,3 +49,11 @@
 - when putting solid icons next to text, they draw attention to the text itself
 - this can through off your visual hierarchy since most of the time
 - to correct this issue, lower the opacity of the icons and the text next to it
+
+## Semantics are secondary
+
+- say you have a card with 3 buttons for three different actions
+- the most important one should pop out the most via color
+- the secondary one should have a neutral bg color
+- the tertiary one should have a bg color that matches the background to downplay it the most
+- finally, for destructive actions like deleting something, use red bg color
