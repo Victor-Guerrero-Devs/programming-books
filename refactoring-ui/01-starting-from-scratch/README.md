@@ -18,6 +18,7 @@ This way you avoid over-designing or adding unneeded styles.
 - the focus should be on exploring layout ideas and creating a clear interface with a strong hierarchy
 - you should beging with paper and pen instead
 - low-fidelity designs like sketches and wireframes are disposable and should be used to explore ideas before moving on to building the real thing
+- just use different shades of gray to begin with
 
 ## Don’t design too much
 
