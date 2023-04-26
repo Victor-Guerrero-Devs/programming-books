@@ -32,3 +32,13 @@
 ## 3.3 Object.assign()
 
 - used for the following: copy the properties of one object onto another with a new reference, create a new object that derives its properties from 2 objects, or to update the properties of one object with another's
+
+## 3.4 Assembling objects using mixin composition
+
+- Assembling objects using mixin composition is a technique for creating objects by combining multiple object behaviors
+
+Reusability: Mixins allow developers to create reusable code that can be easily applied to multiple objects, reducing code duplication and improving maintainability.
+
+Extensibility: Mixins can be used to add new behaviors to an object without modifying its original implementation. This allows developers to extend existing objects with new functionality, making it easier to adapt to changing requirements.
+
+Encapsulation: Mixins can be used to encapsulate complex behavior within a single object, making it easier to reason about and debug. By breaking down complex functionality into smaller, more manageable pieces, mixins can help make code more modular and maintainable.
