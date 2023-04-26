@@ -26,3 +26,10 @@ This way you avoid over-designing or adding unneeded styles.
 - build the real thing as early as possible and reiterate over it (i.e. design then code, repeat)
 - say you want to build a comment section that allows users to upload stuff so a button will be needed + the functionality
 - you find out that adding this functionality will take a lot more than expected; nevertheless, implement the design and worry about it later
+
+## Choose a personality
+
+- a banking app will want to look serious; a new start-up playful and fun
+- these
+- these personalities are communicated via font and colors and border radius
+- serious = serif, gray, blue, gold, square ; playful = rounded sans serif, pink, rounded buttons ; neutral = sans serif
