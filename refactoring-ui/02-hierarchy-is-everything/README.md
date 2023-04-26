@@ -14,3 +14,8 @@
 - stick to 2 or 3 colors at most, e.g. dark gray for headings, medium gray for regular text, light gray for copyright
 - 600-700 font-weight for headings, 400-500 for regular text
 - never dip below 400; use a lighter color or smaller font-size instead
+
+## Don’t use grey text on colored backgrounds
+
+- use it only if you have a white background
+- if you are trying to de-emphasize text, give it a lighter color/opacity of the background it has, e.g. if a blue background, give it a very light blue font color
