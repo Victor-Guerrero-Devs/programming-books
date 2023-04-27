@@ -18,3 +18,11 @@
 - for forms, cards, etc, limit them to 600px
 - start designing for mobile first (~400px vw) and expand and change it to tablet and then desktop
 - some sizing will stay the same from mobile to desktop
+
+## Grids are overrated
+
+- grids are good but don't rely on them for your entire layout
+- tradtionally, for dashboards, the aside nav menu on the left would take up 3 columns out of 12 (25% width) while the main content takes 9
+- this gets akward as the viewport changes
+- instead give the nav menu a fixed width and then use flex for the dashboard so that, when the viewport changes, only the elements in the main section change accordingly
+- TLDR, use fixed widths more often especially for components you don't want changing as the viewport changes
