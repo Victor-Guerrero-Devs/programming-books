@@ -20,3 +20,15 @@
 
 - you don't have to use a contrasting color for a link all the time
 - simply making it bold or have a hover effect is enough
+
+## Align with readability in mind
+
+- if shorter than 2-3 lines, center align
+- anything more keep it left align
+- for values in a table, right align
+- use `hyphens: auto;` for words that are broken apart into a new line
+
+## Letterspacing
+
+- for normal headings, bring the letters a little closer together
+- for all cap headings, increase the space
