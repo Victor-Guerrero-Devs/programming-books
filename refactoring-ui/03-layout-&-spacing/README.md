@@ -11,3 +11,10 @@
 
 - create one before you start designing
 - tailwind already comes with one so another reason to use it :)
+
+## Don't fill the whole screen
+
+- limit the max-width to your UI to 1200-1400px for desktops
+- for forms, cards, etc, limit them to 600px
+- start designing for mobile first (~400px vw) and expand and change it to tablet and then desktop
+- some sizing will stay the same from mobile to desktop
