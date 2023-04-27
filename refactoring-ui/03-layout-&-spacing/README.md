@@ -36,3 +36,8 @@
   faster than elements that are already fairly small — the difference between
   small elements and large elements should be less extreme at small screen
   sizes.
+
+## Ambigious sizing
+
+- has to do with law of attraction
+- elements that are in a group should be spaced closer together and spaced farther away from other groups
