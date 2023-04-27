@@ -26,3 +26,13 @@
 - this gets akward as the viewport changes
 - instead give the nav menu a fixed width and then use flex for the dashboard so that, when the viewport changes, only the elements in the main section change accordingly
 - TLDR, use fixed widths more often especially for components you don't want changing as the viewport changes
+
+## Relative sizing doesn't scale
+
+- having a catch-all doesn't work all the time, e.g. `2.5em` for headings
+- it may look fine on desktop but TOO BIG on mobile
+- therefore, sometimes you will use hard coded values, e.g. `2.5em` for headings on desktop and `24px` on mobile
+- As a general rule, elements that are large on large screens need to shrink
+  faster than elements that are already fairly small — the difference between
+  small elements and large elements should be less extreme at small screen
+  sizes.
